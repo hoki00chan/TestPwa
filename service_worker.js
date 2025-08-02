@@ -6,8 +6,23 @@ self.addEventListener('install', event => {
         './',
         './index.html',
         './manifest.json',
-        './Images/sample1.jpg',
-        './Images/sample2.jpg'
+        './Images/IMG_5481.JPG',
+        './Images/IMG_5504.JPG',
+        './Images/IMG_5508.JPG',
+        './Images/IMG_5509.JPG',
+        './Images/IMG_5552.JPG',
+        './Images/IMG_5554.JPG',
+        './Images/IMG_5558.JPG',
+        './Images/IMG_5586.JPG',
+        './Images/IMG_5591.JPG',
+        './Images/IMG_5599.JPG',
+        './Images/IMG_5645.JPG',
+        './Images/IMG_5662.JPG',
+        './Images/IMG_5666.JPG',
+        './Images/IMG_5704.JPG',
+        './Images/IMG_5729.JPG',
+        './Images/IMG_5730.JPG',
+        './Images/IMG_5738.JPG'
       ]);
     })
   );
