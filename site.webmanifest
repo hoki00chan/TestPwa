@@ -1,6 +1,10 @@
 {
   "name": "VietApp",
   "short_name": "VietApp",
+  "theme_color": "#ffffff",
+  "background_color": "#f2e196",
+  "display": "standalone",
+  "start_url": "./LoginForm.html",
   "icons": [
     {
       "src": "./icon/web-app-manifest-192x192.png",
@@ -14,9 +18,5 @@
       "type": "image/png",
       "purpose": "maskable"
     }
-  ],
-  "theme_color": "#ffffff",
-  "background_color": "#f2e196",
-  "display": "fullscreen",
-  "start_url": "./index.html"
+  ]
 }
