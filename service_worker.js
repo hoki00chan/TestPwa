@@ -7,7 +7,6 @@ self.addEventListener('install', event => {
     caches.open('image-viewer-cache-v1').then(cache => {
       return cache.addAll([
         './',
-        './LoginForm.html',
         './site.webmanifest',
         './icon/web-app-manifest-192x192.png',
         './icon/web-app-manifest-512x512.png',

@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "Front Launch debugger",
+        "url": "http://localhost:3333",
+        "webRoot": "${workspaceFolder}/my-sample"
+      },
+      {
+        "type": "node",
+        "name": "Server Launch debugger",
+        "request": "launch",
+        "runtimeArgs": [
+          "run",
+          "start:debug"
+        ],
+        "runtimeExecutable": "npm",
+        "skipFiles": [
+          "<node_internals>/**"
+        ],
+        "sourceMaps": true,
+        "envFile": "${workspaceFolder}/.env",
+        "cwd": "${workspaceRoot}/nest-sample/github-auth-sample",
+        "console": "integratedTerminal",
+      },
+    ]
+  }
