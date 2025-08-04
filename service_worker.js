@@ -1,5 +1,5 @@
 var CACHE_NAME = 'viet-app-sample';
-var urlsToCache = ['./index.html']
+var urlsToCache = ['./LoginForm.html']
 
 // インストール処理
 self.addEventListener('install', event => {
@@ -7,7 +7,6 @@ self.addEventListener('install', event => {
     caches.open('image-viewer-cache-v1').then(cache => {
       return cache.addAll([
         './',
-        './index.html',
         './site.webmanifest',
         './icon/web-app-manifest-192x192.png',
         './icon/web-app-manifest-512x512.png',
