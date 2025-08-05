@@ -3,19 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>VietApp</title>
-  <link rel="icon" type="image/png" href="./icon/favicon-96x96.png" sizes="96x96" />
-  <link rel="icon" type="image/svg+xml" href="./icon/favicon.svg" />
-  <link rel="shortcut icon" href="./icon/favicon.ico" />
-  <link rel="apple-touch-icon" sizes="180x180" href="./icon/apple-touch-icon.png" />
-  <meta name="apple-mobile-web-app-title" content="VietApp" />
-  <link rel="manifest" href="./site.webmanifest" />
+  <link rel="stylesheet" href="LoginForm.css" />
+  <title>LoginForm</title>
   <script defer src="LoginCtrl.js"></script>
 </head>
 <body>
+  <div class="login-container">
   <h2>ログイン</h2>
   <input type="text" id="username" placeholder="ユーザー名" />
-  <input type="password" id="password" placeholder="パスワード" />
+  <input type="keyword" id="keyword" placeholder="キーワード" />
   <button id="loginBtn">ログイン</button>
   <p id="error" style="color:red;"></p>
 </body>
