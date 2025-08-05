@@ -77,7 +77,7 @@ document.getElementById("loginBtn").addEventListener("click", () => {
   const keyword = document.getElementById("keyword").value;
   const error = document.getElementById("error");
 
-  if (username === "user" && keyword === "viettrip") {
+  if (username === "hoki" && keyword === "viettrip") {
     window.location.href = "MainForm.html";
   } else {
     error.textContent = "ユーザー名またはパスワードが違います。";
