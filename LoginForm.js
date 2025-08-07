@@ -79,7 +79,11 @@ document.getElementById("loginBtn").addEventListener("click", () => {
 
   if (username === "hoki" && keyword === "viettrip") {
     window.location.href = "MainForm.html";
-  } else {
+  } 
+  else if (username === "hoki" && keyword === "cameracamera") {
+    window.location.href = "CameraView.html";
+  } 
+  else {
     error.textContent = "ユーザー名またはパスワードが違います。";
   }
 });
